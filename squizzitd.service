@@ -2,7 +2,7 @@
 Description=Squizzitd Server
 After=network.target
 [Service]
-ExecStart=/usr/bin/squizit
+ExecStart=/usr/bin/squizit -version='Server'
 Type=forking
 Restart=on-failure
 User=squizzitd
